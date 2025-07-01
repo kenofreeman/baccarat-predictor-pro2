@@ -70,7 +70,7 @@ def load_models():
         # Télécharger depuis Google Drive
         try:
             gdown.download(
-                'https://drive.google.com/uc?id=1YOUR_LGBM_MODEL_ID',
+                'https://drive.google.com/file/d/1Wyk2Ws1f3RFgrarBkZhX0H4G6zgmzC2s/view?usp=drive_link',
                 lgbm_path,
                 quiet=False
             )
@@ -88,7 +88,7 @@ def load_models():
     if not os.path.exists(lstm_path):
         try:
             gdown.download(
-                'https://drive.google.com/uc?id=1YOUR_LSTM_MODEL_ID',
+                'https://drive.google.com/file/d/1QBNy50B3sbaKJTg4uW57XZKImnRVI95m/view?usp=drive_link',
                 lstm_path,
                 quiet=False
             )
